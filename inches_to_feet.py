@@ -5,5 +5,6 @@ def inches_to_feet(inches):
     e_inches = inches % 12
     print("The equivalent is",feet,"Feet and",e_inches,"Inches")
 
-inches_to_feet(77)
+
+inches_to_feet(input("Enter the size:"))
 inches_to_feet(452)
