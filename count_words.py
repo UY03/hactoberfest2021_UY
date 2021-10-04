@@ -4,7 +4,7 @@ filename = sys.argv[1]
    
 text_file = open(filename)
 words_dic = {}
-
+print("HacktoberFest2021")
 for line in text_file:
     for word in line.lower().split():
         word = word.strip("'?,.;!-/\"")
